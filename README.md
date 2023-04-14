@@ -1,4 +1,4 @@
-# Grupo I.B.F.
+# Grupo - I.B.F.
 # RM + Integrantes do grupo:
 # 551716 - Leonardo Viotti Bonini
 # 97673 - Tulio Damaceno de Resende
