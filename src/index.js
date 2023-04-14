@@ -1,11 +1,11 @@
 let loginName = "admin";
 let loginPass = "admin123";
 
-let name;
-let password;
+let nome = "";
+let password ="";
 
 function handleName(event) {
-    name = event.target.value;
+    nome = event.target.value;
   }
   
   function handlePassword(event) {
@@ -18,9 +18,9 @@ function handleName(event) {
 
   function handleLoginSubmit() {
     event.preventDefault();
-  if (name == loginName && password == loginPass) {
+  if (nome == loginName && password == loginPass) {
     alert(
-      `Você entrou com o usuário: ${name}, seja bem vindo a nossa plataforma`
+      `Você entrou com o usuário: ${nome}, seja bem vindo a nossa plataforma`
     );
 
     return redirectPage();
