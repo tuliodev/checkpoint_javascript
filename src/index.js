@@ -15,4 +15,15 @@ function handleName(event) {
   function redirectPage() {
     window.location.href = "redirect.html";
   }
-  
+
+  function handleLoginSubmit() {
+    event.preventDefault();
+  if (name == loginName && password == loginPass) {
+    alert(
+      `Você entrou com o usuário: ${name}, seja bem vindo a nossa plataforma`
+    );
+
+    return redirectPage();
+  }
+  return alert("Login e senha incorretos, por favor tente novamente");
+}
